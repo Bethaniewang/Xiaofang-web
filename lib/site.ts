@@ -18,13 +18,12 @@ export const site = {
   ],
   licenses: ["Maryland", "Virginia", "Washington, D.C."],
   nav: [
-    { label: "Home", href: "/" },
-    { label: "About Us", href: "/about" },
-    { label: "Immigration Evaluation", href: "/immigration-evaluation" },
-    { label: "Therapy", href: "/therapy" },
-    { label: "Consulting", href: "/consulting" },
+    { label: "Courses", href: "/#courses" },
+    { label: "Workshops", href: "/#workshops" },
+    { label: "Resources", href: "/#resources" },
+    { label: "Products", href: "/#products" },
     { label: "Blog", href: "/blog" },
-    { label: "Contact", href: "/contact" },
+    { label: "About", href: "/about" },
   ],
 };
 
