@@ -18,13 +18,16 @@ export const site = {
   ],
   licenses: ["Maryland", "Virginia", "Washington, D.C."],
   nav: [
+    { label: "Home", href: "/" },
     { label: "Courses", href: "/#courses" },
     { label: "Workshops", href: "/#workshops" },
     { label: "Resources", href: "/#resources" },
     { label: "Products", href: "/#products" },
     { label: "Blog", href: "/blog" },
     { label: "About", href: "/about" },
+    { label: "Contact", href: "/contact" },
   ],
+  futureNav: [{ label: "Coaching Programs", href: "/#coaching-programs" }],
 };
 
 export const homeServices = [

@@ -17,16 +17,16 @@ export default function ConsultingPage() {
       <Section className="bg-linen">
         <div className="container-page">
           <p className="eyebrow">Areas of expertise</p>
-          <div className="mt-7 flex flex-wrap gap-3">
-            {consultingExpertise.map((item) => <span key={item} className="rounded-full bg-white px-5 py-3 text-sm font-bold text-teal shadow-sm">{item}</span>)}
+          <div className="mt-8 flex flex-wrap gap-3">
+            {consultingExpertise.map((item) => <span key={item} className="rounded-full border border-teal/10 bg-white/70 px-5 py-3 text-xs font-bold uppercase tracking-[0.1em] text-teal shadow-card">{item}</span>)}
           </div>
         </div>
       </Section>
       <Section>
         <div className="container-page">
           <p className="eyebrow">Experience highlights</p>
-          <h2 className="mt-3 text-3xl font-bold text-teal sm:text-4xl">Evidence-informed work across sectors.</h2>
-          <div className="mt-9 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <h2 className="mt-4 text-4xl leading-tight text-teal sm:text-5xl">Evidence-informed work across sectors.</h2>
+          <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {consultingExperience.map((item, index) => <ServiceCard key={item.title} {...item} index={index} />)}
           </div>
         </div>
