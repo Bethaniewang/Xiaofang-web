@@ -17,7 +17,7 @@ export default function AboutPage() {
       <Section>
         <div className="container-page grid gap-10 lg:grid-cols-[1.25fr_0.75fr]">
           <div className="space-y-5 text-base leading-8 text-ink/80">
-            <p>Hi, I'm Dr. Xiaofang (Bethanie) Wang Lanterman. I hold a PhD in Family Science, a master's degree in Couples and Family Therapy, a master's degree in Parenting Education, and advanced training in immigration mental health evaluations.</p>
+            <p>Hi, I&apos;m Dr. Xiaofang (Bethanie) Wang Lanterman. I hold a PhD in Family Science, a master&apos;s degree in Couples and Family Therapy, a master&apos;s degree in Parenting Education, and advanced training in immigration mental health evaluations.</p>
             <p>With over a decade of experience, I offer therapy, immigration mental health evaluations, and consulting services to individuals, couples, families, and organizations.</p>
             <p>As an immigrant myself, I understand the challenges of cultural transitions and offer bilingual care and services in both English and Mandarin.</p>
           </div>

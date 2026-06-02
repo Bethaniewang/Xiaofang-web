@@ -19,7 +19,7 @@ export default function ContactPage() {
         <div className="container-page grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
             <p className="eyebrow">Contact details</p>
-            <h2 className="mt-3 text-3xl font-bold text-teal">We're here when you're ready.</h2>
+            <h2 className="mt-3 text-3xl font-bold text-teal">We&apos;re here when you&apos;re ready.</h2>
             <div className="mt-8 space-y-6 text-sm leading-7 text-ink/80">
               <div>
                 <h3 className="font-bold text-teal">Phone</h3>
