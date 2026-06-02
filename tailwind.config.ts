@@ -8,17 +8,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        cream: "#fbf7ef",
-        sand: "#efe6d7",
-        linen: "#f6efe4",
-        teal: "#164e52",
-        "teal-dark": "#103c40",
-        sage: "#bfd0c7",
-        ink: "#243536",
-        terracotta: "#b66e54",
+        cream: "#fbf8f1",
+        sand: "#eee4d5",
+        linen: "#f4ede2",
+        teal: "#215b5a",
+        "teal-dark": "#163f40",
+        sage: "#c5d2c8",
+        ink: "#304342",
+        terracotta: "#ad715e",
       },
       boxShadow: {
-        soft: "0 12px 35px rgba(28, 73, 73, 0.10)",
+        soft: "0 18px 44px rgba(35, 75, 72, 0.08)",
+        card: "0 10px 30px rgba(35, 75, 72, 0.06)",
       },
     },
   },
