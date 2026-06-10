@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <Hero
         eyebrow="Bilingual English and Mandarin support"
-        title="Immigration Psychological Evaluation"
+        title="xiaofang wang"
         subtitle="Let's stay together"
         description="Bilingual counseling, immigration mental health evaluations, therapy, and consulting services in Maryland, Virginia, and Washington, D.C."
         actions={
