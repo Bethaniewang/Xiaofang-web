@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-ink antialiased;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-normal tracking-[-0.025em];
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+  }
+
+  ::selection {
+    @apply bg-sage text-teal-dark;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply text-[0.68rem] font-bold uppercase tracking-[0.24em] text-terracotta;
+  }
+
+  .button-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-teal px-6 py-3.5 text-xs font-bold uppercase tracking-[0.12em] text-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:bg-teal-dark hover:shadow-soft focus:outline-none focus:ring-2 focus:ring-teal focus:ring-offset-2 focus:ring-offset-cream;
+  }
+
+  .button-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-teal/35 bg-white/25 px-6 py-3.5 text-xs font-bold uppercase tracking-[0.12em] text-teal transition duration-300 hover:-translate-y-0.5 hover:border-teal hover:bg-teal hover:text-white focus:outline-none focus:ring-2 focus:ring-teal focus:ring-offset-2 focus:ring-offset-cream;
+  }
+}

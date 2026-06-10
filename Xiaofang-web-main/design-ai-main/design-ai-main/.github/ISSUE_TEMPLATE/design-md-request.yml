@@ -1,0 +1,76 @@
+name: DESIGN.md Request
+description: Request a DESIGN.md generation for a website
+title: "[Request] DESIGN.md for [Website Name]"
+labels: ["request", "design-md"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting a new DESIGN.md! Please fill out the information below.
+
+  - type: input
+    id: website-name
+    attributes:
+      label: Website/Company Name
+      description: Name of the website or company
+      placeholder: e.g., Spotify
+    validations:
+      required: true
+
+  - type: input
+    id: website-url
+    attributes:
+      label: Website URL
+      description: The main URL of the website
+      placeholder: e.g., https://spotify.com
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this website belong to?
+      options:
+        - Social Media
+        - E-commerce & Retail
+        - Travel & Hospitality
+        - Food & Delivery
+        - Gaming
+        - Developer Tools & Platforms
+        - AI & Machine Learning
+        - Finance & Fintech
+        - Enterprise & Consumer
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Brief Description
+      description: A short description of the website's design aesthetic
+      placeholder: e.g., "Music streaming platform with vibrant green accent on dark theme, bold typography, album-art-driven layouts"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notable-features
+    attributes:
+      label: Notable Design Features
+      description: Any specific design elements you'd like documented
+      placeholder: |
+        - Unique color palette
+        - Custom typography
+        - Interesting component patterns
+        - Special animations/interactions
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I've checked that this website doesn't already have a DESIGN.md in this repo
+          required: true
+        - label: The website has a publicly accessible design that can be documented
+          required: true
