@@ -5,8 +5,8 @@ import { Section } from "@/components/Section";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About Dr. Xiaofang Wang Lanterman | Side By Side Counseling & Consulting",
-  description: "Learn about Dr. Xiaofang Wang Lanterman's bilingual therapy, immigration evaluation, and consulting experience.",
+  title: "About Dr. Xiaofang (Bethanie) Wang Lanterman | Side By Side Counseling & Consulting",
+  description: "Learn about Dr. Xiaofang (Bethanie) Wang Lanterman's bilingual therapy, immigration evaluation, and consulting experience.",
 };
 
 export default function AboutPage() {
